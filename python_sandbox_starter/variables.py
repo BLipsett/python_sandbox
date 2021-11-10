@@ -13,3 +13,25 @@ VARIABLE RULES:
   - Must start with a letter or an underscore
   - Can have numbers but can not start with one
 """
+
+
+'''
+Main types of variables '''
+
+
+x = 1  #int 
+y = 2.5  #float
+name = 'john'  #string 
+is_cool = True # boolean
+
+# Multiple assignments
+x, y, name, is_cool = (1, 2, 'john', False)
+
+#Basic math
+a = x + y
+
+#casting 
+a = str(a)
+y = int(y)
+
+print(type(a))
