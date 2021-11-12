@@ -12,7 +12,7 @@ TABLES['logs'] = (
   " `text` VARCHAR(250) NOT NULL,"
   " `user` VARCHAR(250) NOT NULL,"
   " `created` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,"
-  "PRIMARY KEY (`id)"
+  "PRIMARY KEY (`id`)"
 ") ENGINE=InnoDB"
 )
 def create_database():
